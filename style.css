@@ -1,0 +1,80 @@
+@import url("https://fonts.googleapis.com/css2?family=Righteous&family=Yrsa&display=swap");
+
+* {
+  margin: 0;
+}
+
+header {
+  transition: 0.3s;
+  background-color: #ffc045;
+  padding: 30px;
+
+  text-align: center;
+
+  font-family: "Righteous", sans-serif;
+  font-size: 1.6rem;
+  color: #838383;
+}
+
+section {
+  transition: 0.3s;
+  background-color: #ffe0a5;
+  z-index: -30;
+
+  padding: 30px;
+  font-family: arial, sans-serif;
+  font-size: 1.3rem;
+  color: #6a6a6a;
+  height: 100vh;
+  box-sizing: border-box;
+}
+
+input.txt {
+  font-size: 1.3rem;
+  color: #6a6a6a;
+  font-family: arial, sans-serif;
+
+
+  display: inline-block;
+
+  background-color: transparent;
+
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #858585;
+  border-radius: 2px;
+
+  width: 70%;
+  box-sizing: border-box;
+}
+
+input.txt:focus {
+  transition: 500ms;
+  background: #f7c15c;
+}
+
+input.txt::placeholder {
+  color: #858585bd;
+}
+
+li {
+  margin: 0;
+  margin-top: 10px;
+  padding: 0;
+
+  border-bottom: 3px solid white;
+  border-radius: 2px;
+  box-sizing: border-box;
+}
+
+img#plus {
+  width: 2.5rem;
+  float: right;
+  transition: 0.3s;
+}
+
+img#plus:hover {
+  transition: 0.3s;
+  cursor: pointer;
+  transform: scale(1.5);
+}
