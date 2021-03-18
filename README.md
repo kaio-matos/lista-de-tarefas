@@ -2,6 +2,8 @@
 
 Projeto para treinar o uso do HTML, CSS e JS.
 
+[Site](https://kaio-matos.github.io/lista_de_tarefas/)
+
 ## Tela inicial
 
 ![image](./README/lista-state-0.png)
